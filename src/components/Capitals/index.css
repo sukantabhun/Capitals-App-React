@@ -1,0 +1,39 @@
+/* Write your CSS here */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.element-container {
+  background-color: #93c5fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-around;
+  border-radius: 12px;
+  background-color: #f8fafc;
+  padding: 30px;
+  row-gap: 25px;
+}
+.select-container {
+  display: flex;
+  column-gap: 24px;
+}
+.country{
+  color: #1e293b;
+  font-size: larger;
+  font-weight: bolder;
+}
+select{
+  padding: 8px;
+  border-color: #cbd2d9;
+  border-radius: 8px;
+  border-style:solid;
+  font-weight: bold;
+}
